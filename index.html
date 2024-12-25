@@ -4,18 +4,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nav</title>
+    <title>Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-   <nav class="px-4 py-4 bg-violet-900 text-white">
-    <ul class="flex">
-        <li class="px-2 cursor-pointer ">Home</li>
-        <li class="px-2 cursor-pointer">About</li>
-        <li class="px-2 cursor-pointer">Help</li>
-    </ul>
-   </nav>
+<body class="h-auto">
+    <nav
+        class="bg-blue-100 h-14 flex justify-around items-center text-xs md:justify-between md:px-3 lg:px-14 xl:text-sm">
+        <div class="left h-full  flex items-center md:gap-4 lg:gap-7">
+            <img class="h-5 hidden md:block md:ml lg:h-6 cursor-pointer" src="./img/UHFbanner-MSlogo.png" alt="">
+            <div class="flex gap-3 items-center ">
+                <img class="h-5 md:hidden " src="./img/align-justify.svg" alt="">
+                <img class="h-5 md:hidden " src="./img/search.svg" alt="">
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Microsoft 365</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Team</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Copilot</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Windows</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Surface</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Xbox</p>
+                <p class="hidden md:block cursor-pointer hover:border-b border-black">Support</p>
+            </div>
+        </div>
+        <div class="mid md:hidden">
+            <img class="h-6 cursor-pointer" src="./img/UHFbanner-MSlogo.png" alt="">
+        </div>
+        <div class="right md:px-3 flex gap-2 ">
+            <select class="hidden md:block bg-transparent outline-none cursor-pointer hover:border-b border-black"
+                name="micro" id="">
+                <option value="microsoft ">All Microsoft</option>
+            </select>
+            <div class="flex items-center gap-5">
+                <div class="search xl:flex xl:gap-2 items-center">
+                    <p class="hidden xl:block cursor-pointer hover:border-b border-black">Search</p>
+                    <img class="h-5 hidden md:block md:h-4" src="./img/search.svg" alt="">
+                </div>
+                <div class="cart xl:flex xl:gap-2 items-center">
+                    <p class="hidden xl:block cursor-pointer hover:border-b border-black">Cart</p>
+                    <img class="h-5 md:h-4" src="./img/shopping-cart.svg" alt="">
+                </div>
+                <div class="user xl:flex xl:gap-2 items-center">
+                    <p class="hidden xl:block cursor-pointer">Sign in</p>
+                    <img class="h-8 cursor-pointer" src="./img/circle-user-round.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="slider h-full pb-5 shadow-md border-b lg:flex lg:shadow-none lg:border-none lg:h-[70vh]">
+        <div class="hidden lg:flex flex-col justify-center pl-14 pr-3 space-y-4 pt-3 bg-[#1A1A1A] text-white w-[55vw] ">
+            <h1 class="text-2xl font-semibold">Game Pass</h1>
+            <p class="lg:w-[35vw]">Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on
+                console and PC.</p>
+            <button class="bg-[#0067B8] text-white p-2.5 w-fit cursor-pointer hover:bg-[#0068b8b8] ">Join now</button>
+        </div>
+        <img class="md:size-full lg:size-auto lg:w-[45vw]"
+            src="./img/Highlight-Game-Pass-Update-September-2024_VP2-859x540.avif" alt="">
+        <div
+            class="down pl-5 space-y-4 pt-3 md:relative md:bottom-8 md:left-5 md:bg-white md:w-[95vw] md:shadow-md md:h-44 lg:hidden">
+            <h1 class="text-2xl font-semibold">Game Pass</h1>
+            <p>Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on console and PC.</p>
+            <button class="bg-[#0067B8] text-white p-2.5 cursor-pointer hover:bg-[#0068b8b8] ">Join now</button>
+        </div>
+    </div>
+    <div class="flex items-center justify-center gap-4 w-full h-24">
+        <img class="h-5" src="./img/circle-play.svg" alt="">
+        <img src="./img/chevron-left.svg" alt="">
+        <img class="h-14 -m-3 " src="./img/dot.svg" alt="">
+        <img class="h-2.5" src="./img/circle.svg" alt="">
+        <img src="./img/chevron-right.svg" alt="">
+    </div>
+    <div class="icon-box h-auto space-y-8 p-5 lg:flex lg:items-center justify-center">
+        <div class="first h-full flex justify-around lg:gap-8">
+            <div class="flex flex-col">
+                <img class="h-12 cursor-pointer" src="./img/microsoft-icon.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Choose your Microsoft 365</a>
+            </div>
+            <div class="flex flex-col">
+                <img class="h-12 cursor-pointer" src="./img/Icons-Xbox.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Shop Xbox</a>
+            </div>
+            <div class="hidden sm:flex flex-col ">
+                <img class="h-12 cursor-pointer" src="./img/microsoft-icon.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Get Window 11</a>
+            </div>
+            <div class="hidden md:flex flex-col">
+                <img class="h-12 cursor-pointer" src="./img/Icons-Surface.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Explore Surface devices</a>
+            </div>
+        </div>
+        <div class="second h-fit flex justify-around ">
+            <div class="flex flex-col sm:hidden">
+                <img class="h-12 cursor-pointer" src="./img/microsoft-icon.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Get Window 11</a>
+            </div>
+            <div class="flex flex-col md:hidden">
+                <img class="h-12 cursor-pointer" src="./img/Icons-Surface.svg" alt="">
+                <a class="text-blue-700 hover:border-b border-blue-600" href="#">Explore Surface devices</a>
+            </div>
+        </div>
+    </div>
+    <div class="info flex gap-7 justify-center mt-8 h-fit flex-wrap">
+        <div class="cont1 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-6">
+            <img class="h-48" src="./img/laptop.avif" alt="">
+            <div class="pl-4 space-y-2">
+                <button class="bg-yellow-500 px-2 py-1">New</button>
+                <h1 class="text-2xl font-semibold">Surface Laptop, Copilot+ PC</h1>
+                <p>Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+            </div>
+            <button
+                class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">Learn
+                more</button>
+        </div>
+
+        <div class="cont2 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-14">
+            <img class="h-48" src="./img/gldn-XSX-CP-Xbox-Series-X.avif" alt="">
+            <div class="pl-4 space-y-2">
+                <h1 class="text-2xl font-semibold">Xbox Series X</h1>
+                <p>The fastest, most powerfull Xbox ever</p>
+            </div>
+            <button
+                class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">Shop
+                Xbox series X</button>
+        </div>
+
+        <div class="cont3 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-14">
+            <img class="h-48" src="./img/gaming-control.avif" alt="">
+            <div class="pl-4 space-y-2">
+                <h1 class="text-2xl font-semibold">Xbox Series S</h1>
+                <p>Next-gen performance in the smallest Xbox ever.</p>
+            </div>
+            <button
+                class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4  m-auto cursor-pointer hover:bg-[#0068b8ca]">Shop
+                Xbox series S</button>
+        </div>
+
+        <div class="cont4 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-10">
+            <img class="h-48" src="./img/man.avif" alt="">
+            <div class="pl-4 space-y-2">
+                <h1 class="text-2xl font-semibold">Maximise the everyday with Microsoft 365</h1>
+                <p>Get online protection, secure cloud storage and innovative apps designed to fit your needs – all in
+                    one plan.</p>
+            </div>
+            <button
+                class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">For
+                one person</button>
+            <p class="text-blue-600 ml-4 mb-4">For up to six people ></p>
+        </div>
+
+
+    </div>
+    <div class="wallpaper h-full flex flex-col justify-center md:mt-20 lg:flex-row lg:bg-[#F2F2F2]">
+        <div class="hidden lg:flex lg:w-[40%]  lg:h-[67vh] lg:mt-3 lg:flex-col justify-center gap-5 lg:pl-16">
+            <h1 class="text-3xl font-semibold">Bring the world closer with Bing Wallpaper</h1>
+            <p>Download the free app and enjoy breathtaking views with a new background each day.</p>
+            <button class="bg-[#0067B8] px-3 py-1.5 text-white cursor-pointer hover:bg-[#0068b8ca] lg:w-fit ">Get Bing
+                wallpaper</button>
+        </div>
+        <img class="p-3 lg:w-[50vw] lg:h-[70vh] xl:w-auto" src="./img/mac.avif" alt="">
+        <div
+            class="pl-6 w-[90%] bg-white space-y-5 md:w-[95%] md:h-44 md:shadow-lg md:relative md:pt-4 bottom-9 left-6 lg:hidden">
+            <h1 class="text-2xl font-semibold">Bring the world closer with Bing Wallpaper</h1>
+            <p>Download the free app and enjoy breathtaking views with a new background each day.</p>
+            <button class="bg-[#0067B8] px-3 py-1.5 text-white cursor-pointer hover:bg-[#0068b8ca]">Get Bing
+                wallpaper</button>
+        </div>
+    </div>
+    <div class="bussiness h-auto mt-5">
+        <h1 class="text-4xl font-semibold text-center">For business</h1>
+        <div>
+            <div class="info flex gap-7 justify-center mt-8 h-fit flex-wrap">
+                <div class="cont1 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-12">
+                    <img class="h-48" src="./img/b-1.avif" alt="">
+                    <div class="pl-4 space-y-2">
+                        <h1 class="text-3xl font-semibold">Surface for Business</h1>
+                        <p>No matter what you do, there’s a Surface to help you do it.</p>
+                    </div>
+                    <button
+                        class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">Shop
+                        now</button>
+                </div>
+                <div class="cont2 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-14">
+                    <img class="h-48" src="./img/b-2.avif" alt="">
+                    <div class="pl-4 space-y-2">
+                        <h1 class="text-3xl font-semibold">Microsoft 365 Copilot</h1>
+                        <p>Save time and focus on the things that matter most with AI in Microsoft 365 for business.</p>
+                    </div>
+                    <button
+                        class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">Learn
+                        more</button>
+                </div>
+
+                <div class="cont3 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-12">
+                    <img class="h-48" src="./img/b-3.avif" alt="">
+                    <div class="pl-4 space-y-2">
+                        <h1 class="text-3xl font-semibold">Get Microsoft Teams for your business</h1>
+                        <p>Online meetings, chat, real-time collaboration, and shared cloud storage – all in one place.
+                        </p>
+                    </div>
+                    <button
+                        class="bg-[#0067B8] text-white w-56 px-2 py-1.5 ml-4  m-auto cursor-pointer hover:bg-[#0068b8ca]">Find
+                        the right plan for your bussiness</button>
+                </div>
+
+                <div class="cont4 w-[350px] border-2 h-[550px] shadow-md flex flex-col gap-14">
+                    <img class="h-48" src="./img/b-4.avif" alt="">
+                    <div class="pl-4 space-y-2">
+                        <h1 class="text-3xl font-semibold">Windows 11 for business</h1>
+                        <p>Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+                    </div>
+                    <button
+                        class="bg-[#0067B8] text-white w-fit px-2 py-1.5 ml-4 m-auto cursor-pointer hover:bg-[#0068b8ca]">Learn
+                        more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow w-80 h-24 flex justify-between items-center ml-6 ">
+        <p>Follow Microsoft</p>
+        <img src="./img/facebook.svg" alt="">
+        <img class="h-8" src="./img/x.webp" alt="">
+        <img src="./img/youtube.svg" alt="">
+    </div>
 </body>
 
 </html>
